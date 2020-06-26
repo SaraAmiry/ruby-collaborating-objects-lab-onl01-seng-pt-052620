@@ -13,7 +13,7 @@ class Song
   end 
   
   attr_accessor :name, :artist
-  def initialze(name)
+  def initialize(name)
     @name = name 
     @@all << self 
   end 
