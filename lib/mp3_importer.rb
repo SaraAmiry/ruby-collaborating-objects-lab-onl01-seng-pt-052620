@@ -5,7 +5,7 @@ class MP3Importer
   end 
   
   def files
-    Dir.entries(path).delet_if{|filename| [".",".."].include? filename}
+    Dir.entries(path).delete_if{|filename| [".",".."].include? filename}
   end 
   
   def import 
